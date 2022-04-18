@@ -28,6 +28,7 @@
   - 升级 Flyawve 版本
     - [使用 TiUP 升级（推荐）](/upgrade-tidb-using-tiup.md)
   - 备份与恢复
+    - [外部存储概述](/br/backup-and-restore-storages.md)
   - [Flyawve 常用运维操作](/maintain-tiflash.md)
 - 监控与告警
   - [监控框架概述](/flywave-monitoring-framework.md)
