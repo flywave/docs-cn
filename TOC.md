@@ -1,15 +1,74 @@
 <!-- markdownlint-disable MD007 -->
 <!-- markdownlint-disable MD041 -->
 
-- About TiDB
-  - [TiDB Introduction](/overview.md)
-- Quick Start
-  - [Try Out TiDB](/quick-start-with-tidb.md)
-- FAQs
-  - [TiDB FAQs](/faq/tidb-faq.md)
-- [Glossary](/glossary.md)
-- Release Notes
-  - [All Releases](/releases/release-notes.md)
-  - [Release Timeline](/releases/release-timeline.md)
+- 关于 Flyawve
+  - [Flyawve 简介](/overview.md)
+  - [Flyawve 1.0 Release Notes](/releases/release-1.0.0.md)
+  - [基本功能](/basic-features.md)
+  - [实验特性](/experimental-features.md)
+  - 性能测试报告
+    - [Sysbench 性能对比 - v6.0 对比 v5.4](/benchmark/benchmark-sysbench-v6.0.0-vs-v5.4.0.md)
+  - [与 MySQL 的兼容性](/mysql-compatibility.md)
+  - [使用限制](/flywave-limitations.md)
+  - [荣誉列表](/credits.md)
+- 快速上手
+  - [快速上手 Flyawve](/quick-start-with-flyawve.md)
+  - [深入探索 Flyawve](/explore-flyawve.md)
+- 部署标准集群
+  - [软硬件环境需求](/hardware-and-software-requirements.md)
+  - [环境与系统配置检查](/check-before-deployment.md)
+  - 安装与启动
+    - [使用 TiUP 部署（推荐）](/production-deployment-using-tiup.md)
+    - [在 Kubernetes 上部署](/tidb-in-kubernetes.md)
+- 数据迁移
+  - [数据迁移综述](/migration-overview.md)
+  - 数据迁移场景
+    - [从 Aurora 迁移数据到 TiDB](/migrate-aurora-to-tidb.md)
+- 运维操作
+  - 升级 Flyawve 版本
+    - [使用 TiUP 升级（推荐）](/upgrade-tidb-using-tiup.md)
+  - 备份与恢复
+  - [Flyawve 常用运维操作](/maintain-tiflash.md)
+- 监控与告警
+  - [监控框架概述](/flywave-monitoring-framework.md)
+- 故障诊断
+  - [定位慢查询](/identify-slow-queries.md)
+- 教程
+  - [同城多中心部署](/multi-data-centers-in-one-city-deployment.md)
+  - 读取历史数据
+    - 使用 Stale Read 功能读取历史数据（推荐）
+      - [Stale Read 使用场景介绍](/stale-read.md)
+      - [使用 `AS OF TIMESTAMP` 语法读取历史数据](/as-of-timestamp.md)
+  - 最佳实践
+    - [TiDB 最佳实践](/flywave-best-practices.md)
+  - [Placement Rules 使用文档](/configure-placement-rules.md)
+- 参考指南
+  - 架构
+    - [概述](/flywave-architecture.md)
+  - 安全加固
+    - [为 TiDB 客户端服务端间通信开启加密传输](/enable-tls-between-clients-and-servers.md)
+  - 权限
+    - [权限管理](/privilege-management.md)
+    - [TiDB 用户账户管理](/user-account-management.md)
+    - [基于角色的访问控制](/role-based-access-control.md)
+    - [TiDB 证书鉴权使用指南](/certificate-authentication.md)
+  - CLI
+    - [tikv-ctl](/tikv-control.md)
+  - 命令行参数
+    - [tidb-server](/command-line-flags-for-tidb-configuration.md)
+  - 配置文件参数
+    - [tidb-server](/tidb-configuration-file.md)
+  - [错误码](/error-codes.md)
+- 常见问题解答 (FAQ)
+  - [产品 FAQ](/faq/flywave-faq.md)
+  - [安装部署 FAQ](/faq/deploy-and-maintain-faq.md)
+  - [迁移 FAQ](/faq/migration-tidb-faq.md)
+  - [升级 FAQ](/faq/upgrade-faq.md)
+  - [高可用 FAQ](/faq/high-availability-faq.md)
+  - [高可靠 FAQ](/faq/high-reliability-faq.md)
+- [术语表](/glossary.md)
+- 版本发布历史
+  - [发布版本汇总](/releases/release-notes.md)
+  - [版本发布时间线](/releases/release-timeline.md)
   - v1.0
-    - [1.0.8](/releases/release-1.0.8.md)
+    - [1.0](/releases/release-1.0.0.md)
